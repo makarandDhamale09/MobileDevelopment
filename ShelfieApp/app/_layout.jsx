@@ -24,16 +24,9 @@ const RootLayout = () => {
           }}
         />
         <Stack.Screen
-          name="about"
+          name="(auth)"
           options={{
-            title: "About",
-          }}
-        />
-        <Stack.Screen
-          name="contact"
-          options={{
-            title: "Contact",
-            // headerShown: false,
+            headerShown: false,
           }}
         />
       </Stack>

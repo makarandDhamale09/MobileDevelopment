@@ -33,7 +33,7 @@ const RootLayout = () => {
           name="contact"
           options={{
             title: "Contact",
-            headerShown: false,
+            // headerShown: false,
           }}
         />
       </Stack>

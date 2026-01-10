@@ -29,6 +29,12 @@ const RootLayout = () => {
             headerShown: false,
           }}
         />
+        <Stack.Screen
+          name="(dashboard)"
+          options={{
+            headerShown: false,
+          }}
+        />
       </Stack>
     </>
   );
